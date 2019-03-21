@@ -46,4 +46,4 @@ var mutableDocument = userProfile.ToMutableDocument();
 var newUserProfile = mutableDocument.ToObject<UserProfile>();
 ----
 
-link:hhttps://www.nuget.org/packages/Couchbase.Lite.Mapping[Couchbase.Lite.Mapping can be found on Nuget.org], and is a completely open-source project maintained in link:https://github.com/couchbaselabs/[Couchbase Labs on Github]. It is important to note that the `Couchbase.Lite.Mapping` library is not officially supported by Couchbase, Inc., but is, instead, a community effort. Please give it a try, and let us know what you think! And, of course, please feel free to contribute! 
+link:https://www.nuget.org/packages/Couchbase.Lite.Mapping[Couchbase.Lite.Mapping can be found on Nuget.org], and is a completely open-source project maintained in link:https://github.com/couchbaselabs/[Couchbase Labs on Github]. It is important to note that the `Couchbase.Lite.Mapping` library is not officially supported by Couchbase, Inc., but is, instead, a community effort. Please give it a try, and let us know what you think! And, of course, please feel free to contribute! 
