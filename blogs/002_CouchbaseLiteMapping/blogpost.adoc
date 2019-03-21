@@ -35,7 +35,7 @@ As you can see the code for converting an object into a `MutableDocument` and ba
 ----
 var userProfile = new UserProfile 
 {
-    Name = "Rob Hedgpeth",
+    Name = "Robert Hedgpeth",
     Email = "robert.hedgpeth@couchbase.com"
 };
 
