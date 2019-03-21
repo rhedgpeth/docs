@@ -1,0 +1,48 @@
+:imagesdir: images
+:meta-description: Introducting Robert Hedgpeth, a new developer advocate with Couchbase, Inc.
+:title: Greeting from the new Mobile & IoT Developer Advocate Robert Hedgpeth
+:slug: Developer-Advocate-Robert-Hedgpeth
+:focus-keyword: Couchbase Lite Mapping
+:categories: Couchbase, Mobile
+:tags: Mobile, Couchbase, Couchbase Mobile, iOS, Android, Cross-platform, Xamarin, .NET
+:heroimage: https://pixabay.com/en/sky-cloud-blue-clouds-sky-nature-2410275/ (no attribution required)
+
+= Couchbase.Lite.Mapping: A New Couchbase Labs Nuget Package for Couchbase Mobile
+
+The link:https://www.nuget.org/packages/Couchbase.Lite/[Couchbase.Lite] and link:https://www.nuget.org/packages/Couchbase.Lite.Enterprise/[Couchbase.Lite.Enterprise] Nuget packages provide a broad array of capibilities for easily creating, configuring, and manipulating the data within **Couchbase Lite** databases on a variety of platforms. While the packages contain a large amount of functionality there are still features that, for a variety of reasons, are missing. One example is the ability to automatically convert objects to and from `MutableDocument` objects. Currently, as seen below, each model object property must be added manually to `MutableDocument` `Dictionary<string,object>` instances. 
+
+[source,c#]
+----
+var mutableDocument = new MutableDocument(userProfile.Id);
+mutableDocument.SetString("Name", userProfile.Name);
+mutableDocument.SetString("Email", userProfile.Email);
+mutableDocument.SetString("Address", userProfile.Address);
+----
+
+Subsequently, to map a `MutableDocument` back into the original object the following must be done.
+
+[source,c#]
+----
+var userProfile = new UserProfile
+{
+    Id = document.Id,
+    Name = document.GetString("Name"),
+    Email = document.GetString("Email"),
+    Address = document.GetString("Address")
+};
+----
+
+As you can see the code for converting an object into a `MutableDocument` and back again is simple, but as every object must be mapped developers can find themselves writing many similar lines of code. So, it's with much excitement that link:https://github.com/couchbaselabs[Couchbase Labs] is introducing a new Nuget package to help decrease the amount of code written to map model objects to and from `MutableDocument` objects. 
+
+[source,c#]
+----
+var userProfile = new UserProfile { ... };
+
+// Converting an object to a MutableDocument
+var mutableDocument = userProfile.ToMutableDocument();
+
+// Converting a MutableDocument to an object
+var newUserProfile = mutableDocument.ToObject<UserProfile>();
+----
+
+link:hhttps://www.nuget.org/packages/Couchbase.Lite.Mapping[Couchbase.Lite.Mapping can be found on Nuget.org], and is a completely open-source project maintained in link:https://github.com/couchbaselabs/[Couchbase Labs on Github]. It is important to note that the `Couchbase.Lite.Mapping` library is not officially supported by Couchbase, Inc., but is, instead, a community effort. Please give it a try, and let us know what you think! And, of course, please feel free to contribute! 

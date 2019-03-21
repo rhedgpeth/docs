@@ -1,0 +1,10 @@
+:imagesdir: images
+:meta-description: Introducting Robert Hedgpeth, a new developer advocate with Couchbase, Inc.
+:title: Greeting from the new Mobile & IoT Developer Advocate Robert Hedgpeth
+:slug: Developer-Advocate-Robert-Hedgpeth
+:focus-keyword: New Developer Advocate
+:categories: Advocacy, Couchbase, Mobile
+:tags: .Mobile, Couchbase, Developer Advocate
+:heroimage: https://pixabay.com/en/sky-cloud-blue-clouds-sky-nature-2410275/ (no attribution required)
+
+= New Developer Advocate
