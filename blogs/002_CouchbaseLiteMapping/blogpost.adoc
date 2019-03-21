@@ -9,7 +9,7 @@
 
 = Couchbase.Lite.Mapping: A New Couchbase Labs Nuget Package for Couchbase Mobile
 
-The link:https://www.nuget.org/packages/Couchbase.Lite/[Couchbase.Lite] and link:https://www.nuget.org/packages/Couchbase.Lite.Enterprise/[Couchbase.Lite.Enterprise] Nuget packages provide a broad array of capibilities for easily creating, configuring, and manipulating the data within **Couchbase Lite** databases on a variety of platforms. While the packages contain a large amount of functionality there are still features that, for a variety of reasons, are missing. One example is the ability to dynamically convert objects to and from `MutableDocument` objects. Currently, as seen below, each model object property must be added manually to `MutableDocument` objects through various type-specific methods. 
+The link:https://www.nuget.org/packages/Couchbase.Lite/[Couchbase.Lite] and link:https://www.nuget.org/packages/Couchbase.Lite.Enterprise/[Couchbase.Lite.Enterprise] Nuget packages provide a broad array of capibilities for easily creating, configuring, and manipulating the data within **Couchbase Lite** databases on multiple platforms. While the packages contain a large amount of functionality there are still features that, for a variety of reasons, are missing. One example is the ability to dynamically convert objects to and from `MutableDocument` objects. Currently, as seen below, each model object property must be added manually to `MutableDocument` objects through various type-specific methods. 
 
 [source,c#]
 ----
@@ -46,4 +46,6 @@ var mutableDocument = userProfile.ToMutableDocument();
 var newUserProfile = mutableDocument.ToObject<UserProfile>();
 ----
 
-link:https://www.nuget.org/packages/Couchbase.Lite.Mapping[Couchbase.Lite.Mapping can be found on Nuget.org], and is a completely open-source project maintained in link:https://github.com/couchbaselabs/[Couchbase Labs on Github]. It is important to note that the `Couchbase.Lite.Mapping` library is not officially supported by Couchbase, Inc., but is, instead, a community effort. Please give it a try, and let us know what you think! And, of course, please feel free to contribute! 
+link:https://www.nuget.org/packages/Couchbase.Lite.Mapping[Couchbase.Lite.Mapping can be found on Nuget.org], and is a completely open-source project maintained in link:https://github.com/couchbaselabs/[Couchbase Labs on Github]. It is important to note that the `Couchbase.Lite.Mapping` library is not officially supported by Couchbase, Inc., but is, instead, a community effort. Please give it a try, and let us know what you think! 
+
+Also, as this is an ongoing effort, **please feel free to contribute** by submitting comments, issues, and/or pull-requests. 
