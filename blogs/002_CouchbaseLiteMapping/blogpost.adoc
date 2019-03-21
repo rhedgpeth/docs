@@ -9,14 +9,13 @@
 
 = Couchbase.Lite.Mapping: A New Couchbase Labs Nuget Package for Couchbase Mobile
 
-The link:https://www.nuget.org/packages/Couchbase.Lite/[Couchbase.Lite] and link:https://www.nuget.org/packages/Couchbase.Lite.Enterprise/[Couchbase.Lite.Enterprise] Nuget packages provide a broad array of capibilities for easily creating, configuring, and manipulating the data within **Couchbase Lite** databases on a variety of platforms. While the packages contain a large amount of functionality there are still features that, for a variety of reasons, are missing. One example is the ability to automatically convert objects to and from `MutableDocument` objects. Currently, as seen below, each model object property must be added manually to `MutableDocument` `Dictionary<string,object>` instances. 
+The link:https://www.nuget.org/packages/Couchbase.Lite/[Couchbase.Lite] and link:https://www.nuget.org/packages/Couchbase.Lite.Enterprise/[Couchbase.Lite.Enterprise] Nuget packages provide a broad array of capibilities for easily creating, configuring, and manipulating the data within **Couchbase Lite** databases on a variety of platforms. While the packages contain a large amount of functionality there are still features that, for a variety of reasons, are missing. One example is the ability to dynamically convert objects to and from `MutableDocument` objects. Currently, as seen below, each model object property must be added manually to `MutableDocument` objects through various type-specific methods. 
 
 [source,c#]
 ----
-var mutableDocument = new MutableDocument(userProfile.Id);
+var mutableDocument = new MutableDocument();
 mutableDocument.SetString("Name", userProfile.Name);
 mutableDocument.SetString("Email", userProfile.Email);
-mutableDocument.SetString("Address", userProfile.Address);
 ----
 
 Subsequently, to map a `MutableDocument` back into the original object the following must be done.
@@ -25,10 +24,8 @@ Subsequently, to map a `MutableDocument` back into the original object the follo
 ----
 var userProfile = new UserProfile
 {
-    Id = document.Id,
     Name = document.GetString("Name"),
-    Email = document.GetString("Email"),
-    Address = document.GetString("Address")
+    Email = document.GetString("Email")
 };
 ----
 
@@ -36,7 +33,11 @@ As you can see the code for converting an object into a `MutableDocument` and ba
 
 [source,c#]
 ----
-var userProfile = new UserProfile { ... };
+var userProfile = new UserProfile 
+{
+    Name = "Rob Hedgpeth",
+    Email = "robert.hedgpeth@couchbase.com"
+};
 
 // Converting an object to a MutableDocument
 var mutableDocument = userProfile.ToMutableDocument();
