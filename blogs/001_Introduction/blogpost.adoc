@@ -20,7 +20,7 @@ Joining Couchbase has presented me with a lot to learn, and like many of you I'v
 
 image::dogs.jpg[150,175,float=left,title="The Demons",role="thumb"]
 
-During my free time you can find me tinkering around with some new tech, getting utterly dismantled on a video game, or trying to control the chaos that is my dogs! 
+During my free time you can find me tinkering around with some new tech, getting utterly dismantled on a video game, or trying to control the chaos that are my dogs! 
 
 Please feel free to connect with me on link:https://www.linkedin.com/in/robhedgpeth[LinkedIn] or link:https://twitter.com/probablyrealrob[Twitter] if you have any questions, or suggestions for content you'd like to see!
 
