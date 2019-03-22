@@ -12,13 +12,13 @@ image::me.png[150,150,float=left,role="thumb",title="Me"]
 
 Greetings all! I'm Rob Hedgpeth, and I recently joined the Couchbase team as a developer advocate focusing on mobile and IoT. I'm really excited to be joining the team, and figured I would seize the opportunity to [.line-through]#tell some embarrassing stuff about# introduce myself.
 
-I've been slinging code since the early 2000's. Like many others, I started my journey by building pretty horrendous looking websites. Fortunately, for the world, I've since evolved and branched out to a variety of projects across the web, desktop, mobile, and IoT world. I've contributed to the architecture and development of many mobile apps across all of the major platforms, spanning a variety of different industries. I'm passionate about learning new technologies, and am always eager to try out something new. 
+I've been slinging code since the early 2000's. Like many others, I started my journey by building pretty horrendous looking websites. Fortunately, for the world, I've since evolved and branched out to a variety of projects across the web, desktop, mobile, and IoT world. Since 2010 I've contributed to the architecture and development of over 100 mobile apps across all of the major platforms. Throughout that time I've also been fortunate to be involved in the creation of apps utilizing some of the latest and greatest tech such as AI, ML, and vitual/augmented reality. I'm passionate about technology, and am always looking for an excuse to try out something new.
 
 image::obsolete_technology.png[100,150,float=right,title="Credit: link:https://www.xkcd.com/1891/[XKCD]",role="thumb"]
 
-Joining Couchbase has presented me with a lot to learn, and like many of you I've been hitting up Stack Overflow, Medium, and, of course, this blog to learn as much as I can. Couchbase technologies has an abundance of potential, and I'm anxious to see what we, as a community, can accomplish!
+Joining Couchbase has presented me with a lot to learn, and like many of you I've been hitting up Stack Overflow, the link:https://docs.couchbase.com/home/index.html[Couchbase documentation], and, of course, this blog to learn as much as I can. Couchbase technologies has an abundance of potential, and I'm anxious to see what we, as a community, can accomplish!
 
-image::dogs.jpg[150,175,float=left,title="The Demons",role="thumb"]
+image::dogs.jpg[150,175,float=left,title="'The Demons'",role="thumb"]
 
 During my free time you can find me tinkering around with some new tech, getting utterly dismantled on a video game, or trying to control the chaos that are my dogs! 
 
