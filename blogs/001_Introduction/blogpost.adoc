@@ -17,7 +17,7 @@ I've been slinging code since the early 2000's. Like many others, I started my j
 image::obsolete_technology.png[100,150,float=right,title="Credit: link:https://www.xkcd.com/1891/[XKCD]",role="thumb"]
 
 Since 2010 I've contributed to the architecture and development of over 100 mobile apps across all of the major platforms. 
-Throughout that time there has been a significant amount of changes in the mobile landscape, and I've been fortunate to be involved in the development of apps containing a broad range of emerging technologies such as AI, ML, and virtual/augmented reality. It's been been amazing to see all the change over the years, but keeping up with it all has certainly been a challenge. Like many developers, I know all too well how overwhelming learning new technologies can be at time, and I'm excited to serve as an ambassador to the development community to help improve the process.
+Throughout that time there has been a significant amount of changes in the mobile landscape, and I've been fortunate to be involved in the development of apps containing a broad range of emerging technologies such as AI, ML, and virtual/augmented reality. It's been been amazing to see all the change over the years, but keeping up with it all has certainly been a challenge. Like many developers, I know all too well how overwhelming learning new technologies can be at times, and I'm excited to serve as an ambassador to the development community to help improve the process.
 
 In fact, joining Couchbase has presented me with a lot to learn, and like many of you I've been hitting up Stack Overflow, the link:https://docs.couchbase.com/home/index.html[Couchbase documentation], and, of course, this blog to learn as much as I can. The more I dive into all of the available content the more I realize the amount of potential Couchbase technologies has. I'm really excited to see what we, as a community, can accomplish!
 
@@ -25,7 +25,7 @@ image::dogs.jpg[150,175,float=left,title="The 'Demons'",role="thumb"]
 
 During my free time you can find me tinkering around with some new tech, getting utterly dismantled on a video game, or trying to control the chaos that are my dogs! 
 
-Please feel free to connect with me on link:https://www.linkedin.com/in/robhedgpeth[LinkedIn] or link:https://twitter.com/probablyrealrob[Twitter] if you have any questions, or suggestions for content you'd like to see!
+Please feel free to connect with me on link:https://www.linkedin.com/in/robhedgpeth[LinkedIn], link:https://twitter.com/probablyrealrob[Twitter], or link:https://github.com/rhedgpeth[GitHub] if you have any questions on or suggestions for content you'd like to see!
 
 
 
